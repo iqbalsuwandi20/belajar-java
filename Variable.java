@@ -13,5 +13,16 @@ public class Variable {
 
         name = "Steven";
         System.out.println(name);
+
+        // Kata Kunci Var
+        // contoh error var name; 
+        name = "Iqbal";
+
+        System.out.println(name);
+
+        // Kata Kunci Final
+        final String application = "Belajar Java";
+        
+         // contoh error application = "Belajar PHP";
     }
 }
