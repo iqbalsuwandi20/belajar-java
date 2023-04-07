@@ -12,6 +12,7 @@ public class TipeDataChar {
         System.out.println(a);
         System.out.println(l);
 
+        // Tanpa Spasi
         System.out.print(i);
         System.out.print(q);
         System.out.print(b);
