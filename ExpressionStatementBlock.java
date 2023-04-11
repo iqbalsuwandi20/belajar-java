@@ -1,5 +1,3 @@
-import javax.annotation.processing.SupportedOptions;
-
 public class ExpressionStatementBlock {
     public static void main(String[] args) {
         
