@@ -1,5 +1,3 @@
-import javax.annotation.processing.SupportedOptions;
-
 public class TipeDataBukanPrimitif {
     public static void main(String[] args) {
         Integer iniInteger = 100;
