@@ -1,11 +1,12 @@
 package belajarjavapack.data;
 
 // Cara membuat package
-class Product {
-    String name;
-    int price;
+// Cara membuat access modifier
+public class Product {
+    public String name;
+    public int price;
 
-    Product(String name, int price) {
+    public Product(String name, int price) {
         this.name = name;
         this.price = price;
     } 
