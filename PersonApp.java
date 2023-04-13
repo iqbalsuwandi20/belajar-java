@@ -1,8 +1,10 @@
 public class PersonApp {
     public static void main(String[] args) {
-        Person person2 = new Person("Steven", "Malang");
+        // Cara mengakses constructor overloading
+        Person person2 = new Person("Steven");
         Person person3;
-        person3 = new Person("Garul", "Sumatra");
+        person3 = new Person();
+        person3.name = "Jekma";
 
         // Cara mengakses constructor
         var person1 = new Person("Iqbal", "Tangerang");
