@@ -7,5 +7,11 @@ public class ManagerApp {
 
         VicePresident vicePresident = new VicePresident("Steven");
         vicePresident.sayHello("Garul");
+
+        // Cara mengetahui object class
+        System.out.println(manager);
+        System.out.println(manager.toString());
+        System.out.println(vicePresident);
+        System.out.println(vicePresident.toString());
     }
 }
