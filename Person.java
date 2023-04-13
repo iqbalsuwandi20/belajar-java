@@ -4,9 +4,10 @@ class Person {
     final String country = "Indonesia";
 
     // Cara membuat constructor
-    Person(String paramName, String paramAddress) {
-        name = paramName;
-        address = paramAddress;
+    // Kata kunci this
+    Person(String name, String address) {
+        this.name = name;
+        this.address = address;
     }
 
     // Cara membuat constructor overloading
@@ -20,7 +21,7 @@ class Person {
     }
 
     // Cara membuat method
-    void sayHello(String paramName) {
-        System.out.println("Hello " + paramName + ", My Name is " + name);
+    void sayHello(String name) {
+        System.out.println("Hello " + name + ", My Name is " + this.name);
     }
 }
