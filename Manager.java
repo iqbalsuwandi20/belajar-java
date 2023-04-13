@@ -1,13 +1,13 @@
-class Manager {
-    String name;
+// Cara membuat Polymorphism
+class Manager extends Employee{
     String company;
 
     // Cara membuat super constructor
     Manager(String name) {
-        this.name = name;
+        super(name);
     }
     Manager(String name, String company) {
-        this.name = name;
+        super(name);
         this.company = company;
     }
     
