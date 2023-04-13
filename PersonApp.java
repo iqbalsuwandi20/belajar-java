@@ -1,13 +1,11 @@
 public class PersonApp {
     public static void main(String[] args) {
-        Person person2 = new Person();
+        Person person2 = new Person("Steven", "Malang");
         Person person3;
-        person3 = new Person();
-        person3.name = "Jakol";
+        person3 = new Person("Garul", "Sumatra");
 
-        var person1 = new Person();
-        person1.name = "Iqbal";
-        person1.address = "Tangerang";
+        // Cara mengakses constructor
+        var person1 = new Person("Iqbal", "Tangerang");
         // person1.country = "Belanda"; ERROR KARENA FINAL VAR
         System.out.println(person1.name);
         System.out.println(person1.address);
