@@ -1,6 +1,7 @@
 package belajarjavapack.application;
 
-import belajarjavapack.data.Product;
+// Cara mengakses import
+import belajarjavapack.data.*;
 
 public class Application {
     public static void main(String[] args) {
@@ -9,5 +10,7 @@ public class Application {
 
         System.out.println(product.name);
         System.out.println(product.price);
+
+        Data data = new Data();
     }
 }
