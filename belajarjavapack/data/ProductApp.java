@@ -7,5 +7,8 @@ public class ProductApp {
 
         System.out.println(product.name);
         System.out.println(product.price);
+
+        // Cara mengakses toString() method
+        System.out.println(product);
     }
 }
