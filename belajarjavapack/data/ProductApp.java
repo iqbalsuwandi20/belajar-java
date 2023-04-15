@@ -10,5 +10,9 @@ public class ProductApp {
 
         // Cara mengakses toString() method
         System.out.println(product);
+
+        // Cara mengakses equals() method
+        Product product2 = new Product("Macbook Pro", 30_000_000);
+        System.out.println(product2);
     }
 }
