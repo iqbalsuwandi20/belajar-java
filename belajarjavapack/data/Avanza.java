@@ -1,7 +1,9 @@
 package belajarjavapack.data;
 
 // Cara membuat interface
-public class Avanza implements Car {
+// Cara membuat interface heritance
+// Cara membuat multiple interface inheritance 
+public class Avanza implements Car, IsMaintenance {
     @Override
     public void drive() {
         System.out.println("Avanza drive");
@@ -9,5 +11,13 @@ public class Avanza implements Car {
     @Override
     public int getTier() {
         return 4;
+    }
+    @Override
+    public String getBrand() {
+        return "Toyota";
+    }
+    @Override
+    public boolean isMaintenance() {
+        return false;
     }
 }
