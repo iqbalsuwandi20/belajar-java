@@ -14,5 +14,8 @@ public class ProductApp {
         // Cara mengakses equals() method
         Product product2 = new Product("Macbook Pro", 30_000_000);
         System.out.println(product2);
+
+        // Cara mengakses hashCode() method
+        System.out.println(product.hashCode() == product2.hashCode());
     }
 }

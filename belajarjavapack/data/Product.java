@@ -36,6 +36,7 @@ public class Product {
         return true;
     }
 
+    // Cara membuat hashCode() method
     @Override
     public int hashCode() {
         final int prime = 31;
