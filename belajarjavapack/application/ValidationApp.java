@@ -22,6 +22,11 @@ public class ValidationApp {
             System.out.println("Selalu di eksekusi");
         }
 
+        // Cara mengakses runtime exception
+        LoginRequest loginRequest2 = new LoginRequest(null, null);
+        ValidationUtil.validateRuntime(loginRequest2);
+        System.out.println("Sukses");
+
     }
 
 }
