@@ -10,11 +10,11 @@ public class SimpleActionApp {
 
         /**
          * Membuat Lambda
+         * Dengan Parameter (Membuat Lambda)
+         * Lambda Tanpa Blok (Membuat Lambda)
          */
-        SimpleAction simpleAction = () -> {
-            return "Iqbal";
-        };
+        SimpleAction simpleAction = value -> "Hello " + value;
 
-        System.out.println(simpleAction.action());
+        System.out.println(simpleAction.action("Iqbal"));
     }
 }
